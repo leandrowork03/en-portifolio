@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev.Leandro</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reponsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+
+  <header>
+    <div class="menu-icon" id="menu-icon">
+      <span></span><span></span><span></span>
+    </div>
+    <h1>Dev.Leandro</h1>
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <nav id="side-menu" class="closed">
+    <ul>
+      <li><a href="#first">Home</a></li>
+      <li><a href="#second">About Me</a></li>
+      <li><a href="#third">Skills</a></li>
+      <li><a href="#fourth">Projects</a></li>
+      <li><a href="#fifth">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="first" class="reveal first">
+      <div class="typewriter">
+        <h1>Hi, I'm Leandro Santos!</h1>
+        <h1 class="h-two">Front-End Developer</h1>
+        <p>Imagination is my favorite framework.</p>
+        <a href="./assets/Curriculo Leandro Santos.pdf" class="a-btn" download>Download CV</a>
+        <a href="https://github.com/leandrowork03" class="a-btn" target="_blank">GitHub</a>
+      </div>
+      <div>
+        <img src="./assets/minhaft.jpg" alt="my photo" class="profile">
+      </div>
+  </section>
+  
+  <section id="second" class="reveal second">
+    <div class="container-about">
+      <div class="about-me">
+        <img src="./assets/me.jpeg" alt="me">
+        <p>Leandro Santos, coder</p>
+      </div>
+      <div class="info">
+        <h3>About Me</h3>
+        <h1 class="h-two">Leandro Santos</h1>
+        <p>I am a front-end developer with a solid foundation in JavaScript, React, and TypeScript. I have a deep understanding of the logic behind interactions, code organization, API consumption, and creating modern, accessible, and functional interfaces. I don’t follow predefined formulas—I understand what I’m doing, and every project I deliver reflects this. My approach combines clarity, performance, and focus on the user experience. I am always evolving but already work confidently in every stage of development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="third" class="reveal third">
+    <h1>Skills:</h1>
+    <ul class="skills">
+      <li>
+        <i class="devicon-html5-plain"></i>
+        <p>HTML</p>
+      </li>
+      <li>
+        <i class="devicon-css3-plain"></i>
+        <p>CSS</p>
+      </li>
+      <li>
+        <i class="devicon-javascript-plain"></i>
+        <p>JavaScript</p>
+      </li>
+      <li>
+        <i class="devicon-react-original"></i>
+        <p>React</p>
+      </li>
+      <li>
+        <i class="devicon-typescript-plain"></i>
+        <p>TypeScript</p>
+      </li>
+      <li>
+        <i class="devicon-git-plain"></i>
+        <p>Git</p>
+      </li>
+      <li>
+        <i class="devicon-github-original"></i>
+        <p>GitHub</p>
+      </li>
+      <li>
+        <i class="devicon-firebase-plain"></i>
+        <p>Firebase</p>
+      </li>
+      <li>
+        <i class="devicon-tailwindcss-original"></i>
+        <p>TailwindCSS</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="fourth" class="reveal fourth">
+    <h1>Projects:</h1>
+    <p>Click to view</p>
+    <div class="card-container">
+
+      <div class="card">
+        <div class="card-front card-fourth">
+          <h4>Crypto</h4>
+          <img src="./assets/devcurrency.png" alt="">
+          <p>Cryptocurrency Project: A project for monitoring cryptocurrencies, allowing real-time viewing of prices, variations, and volumes of digital coins. The interface is simple and intuitive, with search features for easy navigation.</p>
+        </div>
+        <div class="card-back x">
+          <h4>System and Features</h4>
+          <p>The project uses React to create an interactive and dynamic interface, allowing efficient rendering of data. HTML, CSS, and JavaScript are used to structure the page and style the layout. Communication with the external API is done via fetch for real-time updates on cryptocurrency information. Responsiveness is ensured with media queries, providing an optimized experience on different devices.</p>
+          <div class="buttons">
+            <a href="https://devleandrocripto.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square">Open Site</i></a>
+            <a href="https://github.com/leandrowork03/cripto" target="_blank"><i class="fa-brands fa-github">View on GitHub</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-front card-one">
+          <h4>Financial Control</h4>
+          <img src="./assets/financeiro.png" alt="">
+          <p>Project developed with a focus on family financial organization, allowing users to record their income and expenses in a practical way, with support for filters and graphical data visualization.</p>
+        </div>
+        <div class="card-back x">
+          <h4>System and Features</h4>
+          <p>Personal Expense Management System developed with HTML, CSS, and JavaScript (ESModules). It uses LocalStorage for data persistence, Chart.js for graphical visualization (pie and line), html2pdf.js for PDF export, and features dark mode, filters by date and category, in addition to full CRUD functionality.</p>
+          <div class="buttons">
+            <a href="https://controle-de-gastosf.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square">Open Site</i></a>
+            <a href="https://github.com/leandrowork03/controle-de-gastos" target="_blank"><i class="fa-brands fa-github">View on GitHub</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-front card-two">
+          <h4>Mini-store E-commerce</h4>
+          <img src="./assets/otaku.png" alt="">
+          <p>Static e-commerce website project with product display, promotional carousel, search, and category filter, plus night mode.</p>
+        </div>
+        <div class="card-back x">
+          <h4>System and Features</h4>
+          <p>The "Otaku Store" project is an e-commerce site developed with HTML, CSS, and vanilla JavaScript. It includes an animated carousel, product filter by name and category, night mode, functional shopping cart with real-time updates, and a responsive layout adapted to different screen sizes. The logic is built using vanilla JavaScript with direct DOM manipulation, event listeners, and modular code structure.</p>
+          <div class="buttons">
+            <a href="https://otakustore.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square">Open Site</i></a>
+            <a href="https://github.com/leandrowork03/mini-ecommerce-js" target="_blank"><i class="fa-brands fa-github">View on GitHub</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-front card-three">
+          <h4>Linktree</h4>
+          <img src="./assets/linktree.png" alt="">
+          <p>Project of a functional and customized version of Linktree: A personal page that centralizes important links like social networks and contacts, facilitating quick access to the creator's main information.</p>
+        </div>
+        <div class="card-back x">
+          <h4>System and Features</h4>
+          <h5>⚠️ Login required</h5>
+          <p>Application developed with React and TypeScript, integrating login authentication via Firebase. It uses Tailwind CSS for the responsive and modern design, with HTML, CSS, and JavaScript forming the base of the project. It offers a clean interface for managing and displaying personalized links.</p>
+          <div class="buttons">
+            <a href="https://link3tree.netlify.app/login" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square">Open Site</i></a>
+            <a href="https://github.com/leandrowork03/linktree" target="_blank"><i class="fa-brands fa-github">View on GitHub</i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="fifth" class="reveal fifth">
+    <h1>Contact:</h1>
+    <ul class="contact">
+      <li>
+        <a href="https://wa.me/5551994089203"><i class="fa-brands fa-whatsapp"></i></a>
+        <p>+55 51 99408-9203</p>
+      </li>
+      <li>
+        <a href="mailto:leandrowork03@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <p>leandrowork03@gmail.com</p>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/leandro-santos-front-end/"><i class="fa-brands fa-linkedin"></i></a>
+        <p>Leandro Santos</p>
+      </li>
+      <li>
+        <a href="https://github.com/leandrowork03"><i class="fa-brands fa-github"></i></a>
+        <p>@leandrowork03</p>
+      </li>
+    </ul>
+  </section>
+
+  <button id="btnTopo">↑</button>
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/510ff49e9a.js" crossorigin="anonymous"></script>
+</body>
+</html>
